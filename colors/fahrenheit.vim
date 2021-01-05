@@ -3,6 +3,7 @@
 " Webpage:     https://github.com/fcpg
 " Description: Dark, warm base16 theme for 256-color terminals
 
+set background=dark
 hi clear
 
 if exists("syntax_on")

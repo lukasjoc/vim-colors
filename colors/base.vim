@@ -1,4 +1,3 @@
-
 " Vim color file
 " Converted from Textmate theme Emacs Strict using Coloration v0.4.0 (http://github.com/sickill/coloration)
 
