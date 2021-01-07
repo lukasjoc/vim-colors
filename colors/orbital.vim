@@ -14,9 +14,8 @@ let colors_name = "orbital"
 
 if &t_Co >= 256 || has("gui_running")
     hi Normal ctermbg=16 ctermfg=75 cterm=NONE guibg=#000000 guifg=#5fafff gui=NONE
-    set background=dark
     hi NonText ctermbg=bg ctermfg=20 cterm=NONE guibg=bg guifg=#0000d7 gui=NONE
-    hi Comment ctermbg=bg ctermfg=59 cterm=NONE guibg=bg guifg=#5f5f5f gui=NONE
+    hi Comment ctermbg=bg ctermfg=Green cterm=NONE guibg=bg guifg=#5f5f5f gui=NONE
     hi Constant ctermbg=bg ctermfg=254 cterm=NONE guibg=bg guifg=#e4e4e4 gui=NONE
     hi Error ctermbg=20 ctermfg=223 cterm=NONE guibg=#0000d7 guifg=#ffd7af gui=NONE
     hi Identifier ctermbg=bg ctermfg=246 cterm=NONE guibg=bg guifg=#949494 gui=NONE
@@ -127,7 +126,6 @@ if &t_Co >= 256 || has("gui_running")
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=black ctermfg=blue cterm=NONE
-    set background=dark
     hi NonText ctermbg=bg ctermfg=darkblue cterm=NONE
     hi Comment ctermbg=bg ctermfg=grey cterm=NONE
     hi Constant ctermbg=bg ctermfg=white cterm=NONE
