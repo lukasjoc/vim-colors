@@ -127,7 +127,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=black ctermfg=blue cterm=NONE
     hi NonText ctermbg=bg ctermfg=darkblue cterm=NONE
-    hi Comment ctermbg=bg ctermfg=grey cterm=NONE
+    hi Comment ctermbg=bg ctermfg=G1reen cterm=NONE
     hi Constant ctermbg=bg ctermfg=white cterm=NONE
     hi Error ctermbg=darkblue ctermfg=white cterm=NONE
     hi Identifier ctermbg=bg ctermfg=grey cterm=NONE
