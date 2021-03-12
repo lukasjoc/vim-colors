@@ -62,10 +62,8 @@ if &t_Co >= 256 || has("gui_running")
   hi qfLineNr ctermbg=bg ctermfg=95 cterm=NONE guibg=bg guifg=#875f5f gui=NONE
   hi helpLeadBlank ctermbg=bg ctermfg=231 cterm=NONE guibg=bg guifg=#ffffff gui=NONE
   hi helpNormal ctermbg=bg ctermfg=231 cterm=NONE guibg=bg guifg=#ffffff gui=NONE
-  " hi Visual ctermbg=NONE, cterm=reverse gui=reverse guifg=Grey guibg=fg
-  " hi VisualNOS cterm=underline,bold gui=underline,bold
-  hi Whitespace ctermfg=darkgrey
-
+  hi Visual ctermbg=NONE cterm=reverse gui=reverse guifg=Grey guibg=fg
+  hi VisualNOS cterm=underline,bold gui=underline,bold
   hi Pmenu ctermbg=235 ctermfg=248 cterm=NONE guibg=#262626 guifg=#a8a8a8 gui=NONE
   hi PmenuSbar ctermbg=bg ctermfg=231 cterm=NONE guibg=bg guifg=#ffffff gui=NONE
   hi PmenuSel ctermbg=235 ctermfg=221 cterm=NONE guibg=#262626 guifg=#ffd75f gui=NONE
@@ -176,8 +174,8 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
   hi qfLineNr ctermbg=bg ctermfg=darkmagenta cterm=NONE
   hi helpLeadBlank ctermbg=bg ctermfg=white cterm=NONE
   hi helpNormal ctermbg=bg ctermfg=white cterm=NONE
- " hi Visual ctermbg=darkyellow ctermfg=black cterm=NONE
- " hi VisualNOS ctermbg=bg ctermfg=white cterm=NONE
+  hi Visual ctermbg=NONE cterm=reverse gui=reverse guifg=Grey guibg=fg
+  hi VisualNOS cterm=underline,bold gui=underline,bold
   hi Pmenu ctermbg=darkgray ctermfg=gray cterm=NONE
   hi PmenuSbar ctermbg=bg ctermfg=white cterm=NONE
   hi PmenuSel ctermbg=darkgray ctermfg=yellow cterm=NONE
@@ -237,7 +235,6 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
   hi CtrlPBufferInd ctermbg=bg ctermfg=white cterm=NONE
   hi CtrlPBufferVis ctermbg=bg ctermfg=darkyellow cterm=NONE
   hi CtrlPBufferNr ctermbg=bg ctermfg=blue cterm=NONE
-  hi Whitespace ctermfg=darkgrey
 endif
 
 " Generated with RNB (https://gist.github.com/romainl/5cd2f4ec222805f49eca)
